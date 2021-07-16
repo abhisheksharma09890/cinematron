@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+
+.contact {
+  font-family: Georgia, serif;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #222;
+  color: white;
+}
+.contact img {
+  display: block !important;
+  margin: 0 auto !important;
+  height: 60px;
+}
+.mid__button {
+  display: block;
+  background-color: rgba(84, 83, 83, 0.5);
+  margin: 0 auto !important;
+  margin-top: 20px !important;
+  margin-bottom: 10px !important;
+}
+.quick__links {
+  margin-left: 2px;
+  margin-bottom: 10px;
+}
+.quick__links h4 {
+  margin-bottom: 12px;
+}
+.quick__links a {
+  text-decoration: none;
+  color: #0f79af;
+}
+.quick__links a:hover {
+  color: white;
+}
+.copyright {
+  margin-top: 20px !important;
+  text-align: center;
+  color: #b1b1b1;
+}

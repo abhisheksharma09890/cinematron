@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+.movie__details {
+  background-color: #111;
+  color: white;
+}
+.review {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.rating__no {
+  display: inline-block;
+  margin-right: 20px;
+}
+.row__posterNew {
+  position: relative;
+  top: -120px;
+  max-height: 400px;
+  border: black solid 0px;
+  border-radius: 25%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.movie__rating {
+  max-width: 50%;
+}
+.movie__rating p {
+  font-size: 120%;
+  margin-top: 10px;
+}
+.detail__icon {
+  color: white;
+  background-color: #222;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 200px;
+}
+.wrap {
+  transition: transform 450ms;
+}
+.wrap:hover {
+  transform: scale(1.09);
+}
+
+.see__bottom {
+  color: red;
+}

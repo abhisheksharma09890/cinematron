@@ -1,0 +1,33 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 40px;
+  padding: 30px;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.5s;
+  transition-timing-function: ease-in;
+}
+
+.nav__black {
+  background-color: #111;
+}
+.nav__logo {
+  position: fixed;
+  left: 20px;
+  width: 80px;
+  object-fit: contain;
+}
+.nav button {
+  position: fixed;
+  right: 60px;
+  object-fit: contain;
+}
+.cancel__logo {
+  position: fixed;
+  right: 70px;
+  display: none;
+  cursor: pointer;
+}
